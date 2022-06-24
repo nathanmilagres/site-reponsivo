@@ -1,0 +1,176 @@
+@media only screen and (max-width:425px) {
+    .limite-secao{
+        min-width: 320px;
+        max-width: 425px;
+        margin: 0 auto;
+        background-color:darkcyan;
+        text-align: center;
+    }
+    .secao-logo{
+        padding-bottom: 30px;
+    }
+    .secao-logo img{
+        width:90%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .secao-logo nav a{
+        display: block;
+        background-color:rgba(255, 255, 255, 0.11);
+        margin-top:10px;
+        padding: 20px;
+        color:white;
+        font-size: large;
+    }
+    .secao-logo nav a:hover{
+        background-color:rgba(255, 255, 255, 0.322);
+    }
+    .secao-principal{
+        
+        position: relative;
+        height: 300px;       
+        background-image: url(../img/clinica.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .secao-principal::before{
+        content: "";
+        top:0;
+        right:0;
+        background-color: #000;
+        opacity: 0.6;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+       
+    }.secao-principal div{    
+        position: relative;
+        color: white;
+       font-size: 4vw;
+        text-transform: uppercase;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        text-shadow: 2px 2px 4px #000;
+    }
+    .secao-principal div h1:last-child{    
+        font-size: 3.9vw;
+    }
+    .secao-sobre{
+        padding-bottom: 30px;
+    }
+    .secao-sobre h3{
+        color:rgb(15, 59, 65);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size:10vw;
+    }
+    .secao-sobre p{
+        color:rgb(18, 58, 63);
+        padding: 10px;   
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size:5vw;
+        text-align: justify;
+    }
+    .secao-sobre div p{
+        font-size:6vw;
+        text-align: center;
+        color:rgb(15, 59, 65);
+        text-decoration: underline;
+    }
+    .secao-sobre img{
+        display: none;
+    }
+    .secao-sobre li{
+        display: block;
+        font-style: italic;
+        color:#333;
+        background-color: rgba(255, 255, 255, 0.075);
+        padding: 10px;   
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size:4.9vw;
+        text-align: center;
+    }
+    .secao-complemento h4{
+        color:rgb(42, 81, 87);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size:10vw; 
+    }
+    .secao-complemento p{
+        color:rgb(25, 67, 73);
+        font-size:4.9vw;
+        text-align:justify;
+        padding: 10px;   
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .secao-complemento figure img{
+        width:100%;
+    }
+    .secao-complemento figure figcaption{
+        font-size:4.9vw;
+        color:rgb(177, 222, 228);
+        text-align:center;
+        margin-top: -5px; 
+        padding-bottom: 10px;
+    }
+    
+    .secao-contato{
+        width:100%;
+    }
+    .secao-contato h4{        
+        color:rgb(25, 67, 73);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size:10vw; 
+        display: block;
+        width:100%;
+        height:40px;
+        background-color: rgb(133, 177, 162);
+    }
+    .secao-contato p{
+        
+        color:rgb(25, 67, 73);
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        flex-direction:row;
+        height: 50px;
+        font-size: 7.5vw;
+        
+    }
+    .secao-contato p::before{
+        content: '';       
+        display:inline-block;
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        position: relative;
+    }
+    .secao-contato p:nth-of-type(1)::before{           
+        background-image: url(../img/local.png);       
+    }
+    .secao-contato p:nth-of-type(2)::before{           
+        background-image: url(../img/telefone.png);       
+    }
+    .secao-contato p:nth-of-type(3)::before{           
+        background-image: url(../img/relogio.png);       
+    }
+    .secao-contato p:nth-of-type(1){
+        background-color: rgba(255, 255, 255, 0.301);
+    }
+    .secao-contato p:nth-of-type(2){
+        background-color: rgba(255, 255, 255, 0.401);
+    }
+    .secao-contato p:nth-of-type(3){
+        background-color: rgba(255, 255, 255, 0.501);
+    }
+    
+}
